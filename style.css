@@ -7,7 +7,7 @@ body {
 }
 
 header {
-  background: #222;
+  background: #3b7082;
   padding: 10px 0;
 }
 
@@ -41,6 +41,7 @@ header {
   width: 270px;
   border-radius: 50%;
   margin-right: 20px;
+  filter: brightness(0.9) contrast(1.0);
 }
 
 .intro {
