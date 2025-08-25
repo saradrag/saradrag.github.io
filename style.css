@@ -54,15 +54,17 @@ header {
 }
 
 .gallery {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-  gap: 10px;
+  column-count: 3;
+  column-gap: 15px;
 }
 
 .gallery img {
   width: 100%;
-  border-radius: 10px;
+  margin-bottom: 15px;
+  border-radius: 8px;
+  display: block;
 }
+
 .pub-entry {
   display: flex;
   align-items: flex-start;
